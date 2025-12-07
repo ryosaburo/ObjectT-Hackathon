@@ -1,0 +1,14 @@
+{
+  "name": "src",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "better": "^0.1.0",
+    "better-sqlite3": "^12.5.0",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mecab-async": "^0.1.2",
+    "sqlite3": "^5.1.7"
+  }
+}
