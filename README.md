@@ -45,16 +45,25 @@ npm -v
 
 #### 1-2. MeCab本体のインストール
 
-macOS(Homebrew):```brew install mecab mecab-ipadic```
-Windows:公式サイトからインストーラーをダウンロード
+* macOS(Homebrew):```brew install mecab mecab-ipadic```
+* Windows:公式サイトからインストーラーをダウンロード
 
 ### 2. リポジトリのクローン
 
 ```git clone https://github.com/ryosaburo/ObjectT-Hackathon.git
 cd ObjectT-Hackathon
 ```
+### 3. バックエンドのセットアップ (Node.js/Express, SQLite, MeCabラッパー)
 
+```cd db-api
+npm install
+```
 
+### 4. フロントエンドのセットアップ (Vue.js/Vite)
+
+```cd ../src # 親ディレクトリに戻り、フロントエンドへ移動
+npm install
+```
 
 
 
