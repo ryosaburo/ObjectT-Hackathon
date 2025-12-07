@@ -40,7 +40,7 @@ Node.jsおよびnpmがインストールされていることを確認してく�
 
 ```bash
 node -v
-npm -v
+npm -v```
 
 #### 1-2. MeCab本体のインストール
 
