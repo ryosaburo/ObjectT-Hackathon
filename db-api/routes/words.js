@@ -1,11 +1,25 @@
 const express = require('express');
 const path = require('path');
+const fs = require('fs');
 const Database = require('better-sqlite3');
 const mecab = require('../mecab');
 
 const router = express.Router();
 const dbPath = path.join(__dirname, '../database/word.db');
-const db = new Database(dbPath, { readonly: true });
+
+let db;
+try {
+  const exists = fs.existsSync(dbPath);
+  if (!exists) {
+    console.warn('警告: word.db が存在しません:', dbPath);
+    console.warn('初期化スクリプトで DB を作成してください: node db-api/database/init.js');
+  }
+  // 存在すれば読み取り専用で開く。存在しなければ作成モードで開く。
+  db = new Database(dbPath, exists ? { readonly: true } : {});
+} catch (err) {
+  console.error('DB を開けませんでした:', err.message || err);
+  throw err;
+}
 
 // GET /api/words?q=...&tag=...&rhyme=...&limit=20&offset=0
 // DB から単語一覧を取得して返す（タグはカンマ区切りで返す）
