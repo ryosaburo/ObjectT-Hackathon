@@ -50,18 +50,21 @@ npm -v
 
 ### 2. リポジトリのクローン
 
-```git clone https://github.com/ryosaburo/ObjectT-Hackathon.git
+```
+git clone https://github.com/ryosaburo/ObjectT-Hackathon.git
 cd ObjectT-Hackathon
 ```
 ### 3. バックエンドのセットアップ (Node.js/Express, SQLite, MeCabラッパー)
 
-```cd db-api
+```
+cd db-api
 npm install
 ```
 
 ### 4. フロントエンドのセットアップ (Vue.js/Vite)
 
-```cd ../src # 親ディレクトリに戻り、フロントエンドへ移動
+```
+cd ../src # 親ディレクトリに戻り、フロントエンドへ移動
 npm install
 ```
 
