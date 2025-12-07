@@ -41,3 +41,15 @@ Node.jsおよびnpmがインストールされていることを確認してく�
 ```bash
 node -v
 npm -v
+
+#### 1-2. MeCab本体のインストール
+
+macOS(Homebrew):```brew install mecab mecab-ipadic```
+Windows:公式サイトからインストーラーをダウンロード
+
+### 2. リポジトリのクローン
+
+```git clone https://github.com/ryosaburo/ObjectT-Hackathon.git```
+
+
+
