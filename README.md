@@ -40,7 +40,8 @@ Node.jsおよびnpmがインストールされていることを確認してく�
 
 ```bash
 node -v
-npm -v```
+npm -v
+```
 
 #### 1-2. MeCab本体のインストール
 
@@ -49,7 +50,11 @@ Windows:公式サイトからインストーラーをダウンロード
 
 ### 2. リポジトリのクローン
 
-```git clone https://github.com/ryosaburo/ObjectT-Hackathon.git```
+```git clone https://github.com/ryosaburo/ObjectT-Hackathon.git
+cd ObjectT-Hackathon
+```
+
+
 
 
 
