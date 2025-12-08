@@ -1,13 +1,13 @@
 text	normalized	reading	meaning	pos	syllables	rhyme_key	complexity	popularity	tags
 ラップ	ラップ	ラップ	即興の歌	noun	1	ap	1	0	flow,slang
-フロー フロー フロー 韻の流れ noun 2 1 0 flow
-パンチライン パンチライン パンチライン 決めゼリフ noun 4 2 0 technique,attack
-バーン バーン バーン 攻撃的なライン (ディス) verb 1 1 0 attack,dis
-フリースタイル フリースタイル フリースタイル 即興ラップ noun 4 2 0 free,flow
-マイク マイク マイク マイクロフォン noun 2 1 0 instrument
-リリック リリック リリック 歌詞、ライン noun 3 1 0 lyric
-スピット スピット スピット ラップする（英語由来） verb 2 1 0 slang
-クラッチ クラッチ クラッチ 重要な決めどころ noun 2 1 0 technique
-ディス ディス ディス 攻撃的批評（ディス） noun 2 1 0 attack,slang
-メタファー メタファー メタファー 比喩表現 noun 4 2 0 creative
-ドロップ ドロップ ドロップ ビート・決めの瞬間 noun 2 1 0 flow
+フロー  フロー  フロー  韻の流れ    noun    2   1   0   flow
+パンチライン    パンチライン    パンチライン    決めゼリフ  noun    4   2   0   technique,attack
+バーン  バーン  バーン    攻撃的なライン (ディス)    verb   1   1   0 attack,dis
+フリースタイル  フリースタイル  フリースタイル  即興ラップ  noun    4   2   0   free,flow
+マイク  マイク  マイク  マイクロフォン  noun    2   1   0   instrument
+リリック    リリック    リリック    歌詞、ライン    noun    3   1   0   lyric
+スピット    スピット    スピット    ラップする（英語由来）   verb   2   1   0   slang
+クラッチ    クラッチ    クラッチ    重要な決めどころ    noun    2   1   0   technique
+ディス  ディス  ディス  攻撃的批評（ディス）    noun    2   1   0   attack,slang
+メタファー  メタファー  メタファー  比喩表現    noun    4   2   0   creative
+ドロップ    ドロップ    ドロップ    ビート・決めの瞬間  noun    2   1   0   flow
