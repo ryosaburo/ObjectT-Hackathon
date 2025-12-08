@@ -14,6 +14,10 @@
     </div>
 
     <div class="composer">
+      <div class="opponent-info" v-if="props.opponent">
+        <h4>対戦相手: {{ props.opponent.name }}</h4>
+        <p class="opp-desc">{{ props.opponent.desc }}</p>
+      </div>
       <h3>作成エリア</h3>
       <div class="drop-area" @dragover.prevent @drop="onDropAtEnd">
         <template v-if="sequence.length === 0">
@@ -44,6 +48,7 @@
 
 <script setup>
 import { ref, reactive, onMounted } from 'vue';
+const props = defineProps({ opponent: { type: Object, default: null } });
 import WordCard from './WordCard.vue';
 
 const words = ref([]);
@@ -125,4 +130,6 @@ onMounted(() => { fetchWords(); });
 .placeholder { color:#999; padding:24px; text-align:center; }
 .sequence { display:flex; flex-direction:column; gap:8px; margin-top:8px; }
 textarea { width:100%; margin-top:8px; }
+.opponent-info { border:1px solid #eee; padding:10px; border-radius:8px; margin-bottom:8px; background:#fafafd; }
+.opp-desc { color:#666; font-size:13px; margin:0; }
 </style>
