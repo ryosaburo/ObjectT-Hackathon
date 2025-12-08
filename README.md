@@ -71,9 +71,13 @@ npm install
 ---
 
 ## ▶️ 実行方法
-
+* フロントエンド
 ```
 npm run dev
+```
+* バックエンド
+```
+npm start
 ```
 
 
