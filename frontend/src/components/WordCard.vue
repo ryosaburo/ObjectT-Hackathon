@@ -84,7 +84,7 @@ function onKeyDown(e) {
   font-weight: 700;
   margin-bottom: 6px;
   font-size: 18px;
-  color: #fff;
+  color: #000;
   line-height: 1.15;
   word-break: break-word;
 }
