@@ -11,13 +11,13 @@ text	normalized	reading	meaning	pos	syllables	rhyme_key	complexity	popularity	ta
 ディス  ディス  ディス  攻撃的批評（ディス）    noun    2   1   0   attack,slang
 メタファー	メタファー	メタファー	比喩表現	noun	4	2	0	creative
 ドロップ	ドロップ	ドロップ	ビート・決めの瞬間	noun	2	1	0	flow
-バース	バース	バース	ラップの一節	noun	2	ssu	1	0	structure,lyric			
+バース	バース	バース	ラップの一節	noun	2	ssu	1	0	structure,lyric
+			
 バイブス	バイブス	バイブス	雰囲気、ノリ	noun	3	1	1	0	vibe,slang,flow
-レペゼン	レペゼン	レペゼン	代表する	noun	3	1	1	0	represent,slang
-アンサー	アンサー	アンサー	返答、返し	noun	4	1	1	0	attack,response
+レペゼン	レペゼン	レペゼン	代表する（〜をレペゼンする）	noun	3	1	1	0	represent,slang
+アンサー	アンサー	アンサー	返答、返し（バトルでの返し）	noun	4	1	1	0	attack,response
 マイメン	マイメン	マイメン	仲間、友達	noun	3	1	1	0	friend,slang
 チル	チル	チル	落ち着く・リラックスすること	noun	1	1	1	0	chill,slang
 ヘイター	ヘイター	ヘイター	嫌う人、批判者	noun	3	1	1	0	hater,slang
 ビーフ	ビーフ	ビーフ	抗争、もめごと	noun	2	1	1	0	conflict,attack
 スキル	スキル	スキル	技術、能力	noun	2	1	1	0	skill,technique
-アッパー	アッパー	アッパー	盛り上げる要素、上げる役割	noun	3	1	1	0	energy,slang
