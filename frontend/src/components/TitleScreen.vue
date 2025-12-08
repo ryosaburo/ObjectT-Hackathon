@@ -1,7 +1,7 @@
 <template>
   <div class="title-screen">
-    <h1>ObjectT Battle</h1>
-    <p>韻を刻め。相手を倒せ。</p>
+    <h1>Rap Battle</h1>
+    <p>言葉を選べ。韻を刻め。相手を倒せ。</p>
     <div class="actions">
       <button @click="$emit('start')">はじめる</button>
     </div>
